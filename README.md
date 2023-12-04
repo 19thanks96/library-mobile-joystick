@@ -23,3 +23,22 @@ create index.html, and add:
 
 It is only for mobile devices because work with touchmove events!
 Of course it is seamply to change 
+
+
+### Easy code to show change at screen
+```<body>
+    <div id="resultX"></div>
+    <div id="resultY"></div>
+
+</body>
+<script src="https://unpkg.com/mobile-joystick" type="module"></script>
+<script type="module">
+    createJoystick()
+    
+    setInterval(() => {
+        resultX.innerHTML = mobileJoystick.x
+        resultY.innerHTML = mobileJoystick.y
+
+    }, 100)
+
+</script>```
