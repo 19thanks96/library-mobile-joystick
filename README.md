@@ -10,7 +10,7 @@ create index.html, and add:
 - ```mobileJoystick``` for get result this variables haves property:
 - `x: 0,` - (between -1 and 1) for velocity 
 - `y: 0,` - (between -1 and 1) for velocity
-- `consolling: true,` - for return current x and y(change the value to false if you don't want to see it)
+- `consolling: true,` - for return current x and y in console(change the value to false if you don't want to see it)
 ![Code IMG](./gifs/code.png)
 
 ## Get Code
