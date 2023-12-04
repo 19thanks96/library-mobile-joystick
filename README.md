@@ -26,7 +26,8 @@ Of course it is seamply to change
 
 
 ### Easy code to show change at screen
-```<body>
+```
+<body>
     <div id="resultX"></div>
     <div id="resultY"></div>
 
@@ -41,4 +42,5 @@ Of course it is seamply to change
 
     }, 100)
 
-</script>```
+</script>
+```
