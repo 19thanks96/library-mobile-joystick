@@ -93,8 +93,10 @@ svg.addEventListener("touchmove", function (event) {
   }
   innerCircle.setAttribute('fill-opacity', 0.4)
   circle.setAttribute('fill-opacity', 0.2)
-
+  
+  if(mobileJoystick.consolling) {
   consolling(mobileJoystick.x, mobileJoystick.y)
+  }
 })
 
 svg.addEventListener('touchend', function (event) {
@@ -106,7 +108,7 @@ svg.addEventListener('touchend', function (event) {
   circle.setAttribute('fill-opacity', 0.4)
 
   if(mobileJoystick.consolling) {
-    consolling()
+    consolling(0, 0)
   }
 })
 
