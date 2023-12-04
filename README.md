@@ -30,7 +30,6 @@ Of course it is seamply to change
 <body>
     <div id="resultX"></div>
     <div id="resultY"></div>
-
 </body>
 <script src="https://unpkg.com/mobile-joystick" type="module"></script>
 <script type="module">
@@ -39,7 +38,6 @@ Of course it is seamply to change
     setInterval(() => {
         resultX.innerHTML = mobileJoystick.x
         resultY.innerHTML = mobileJoystick.y
-
     }, 100)
 
 </script>
